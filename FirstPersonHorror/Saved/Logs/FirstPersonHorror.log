@@ -4016,3 +4016,9 @@ LogConfig: Setting CVar [[r.setres:1280x720]]
 [2021.10.10-01.03.32:124][781]AssetCheck: New page: Asset Save: multiple assets
 [2021.10.10-01.03.32:124][781]LogContentValidation: Display: Validating MapBuildDataRegistry /Game/School_Environment/Scenes/School_Horror_BuiltData.School_Horror_BuiltData
 [2021.10.10-01.03.32:124][781]LogContentValidation: Display: Validating World /Game/School_Environment/Scenes/School_Horror.School_Horror
+[2021.10.10-01.13.30:646][572]LogUObjectHash: Compacting FUObjectHashTables data took   0.91ms
+[2021.10.10-01.13.30:649][572]LogFileHelpers: Editor autosave (incl. external actors) for '/Game/School_Environment/Scenes/School_Horror' took 0.024
+[2021.10.10-01.23.31:096][366]LogUObjectHash: Compacting FUObjectHashTables data took   0.54ms
+[2021.10.10-01.23.31:097][366]LogFileHelpers: Editor autosave (incl. external actors) for '/Game/School_Environment/Scenes/School_Horror' took 0.019
+[2021.10.10-01.33.31:573][321]LogUObjectHash: Compacting FUObjectHashTables data took   1.26ms
+[2021.10.10-01.33.31:576][321]LogFileHelpers: Editor autosave (incl. external actors) for '/Game/School_Environment/Scenes/School_Horror' took 0.022
