@@ -12,7 +12,6 @@ UCLASS()
 class FIRSTPERSONHORROR_API ACharacterController : public ACharacter
 {
 	GENERATED_BODY()
-
 public:
 	// Sets default values for this character's properties
 	ACharacterController();

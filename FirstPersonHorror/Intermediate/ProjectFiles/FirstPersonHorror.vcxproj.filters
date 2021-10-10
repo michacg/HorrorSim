@@ -3,7 +3,7 @@
   <ItemGroup>
     <None Include="..\..\FirstPersonHorror.uproject" />
     <Filter Include="Source">
-      <UniqueIdentifier>{646C1276-CB0B-445E-8AAE-819B9EF737FF}</UniqueIdentifier>
+      <UniqueIdentifier>{541B51F1-3474-42CC-8752-F0A479B064B9}</UniqueIdentifier>
     </Filter>
     <None Include="..\..\Source\FirstPersonHorror.Target.cs">
       <Filter>Source</Filter>
@@ -12,7 +12,7 @@
       <Filter>Source</Filter>
     </None>
     <Filter Include="Config">
-      <UniqueIdentifier>{A189FF00-9534-4B20-87ED-56721DD033F9}</UniqueIdentifier>
+      <UniqueIdentifier>{A53ADAF1-DA14-4044-BAD9-58C5D0EE8C4B}</UniqueIdentifier>
     </Filter>
     <None Include="..\..\Config\DefaultEditor.ini">
       <Filter>Config</Filter>
@@ -27,7 +27,7 @@
       <Filter>Config</Filter>
     </None>
     <Filter Include="Source\FirstPersonHorror">
-      <UniqueIdentifier>{6158CD84-3D57-4946-9EAE-B6C11B1D1EFB}</UniqueIdentifier>
+      <UniqueIdentifier>{306E1ED7-CCC1-4574-A58A-B36608522374}</UniqueIdentifier>
     </Filter>
     <ClCompile Include="..\..\Source\FirstPersonHorror\CharacterController.cpp">
       <Filter>Source\FirstPersonHorror</Filter>
@@ -48,6 +48,18 @@
       <Filter>Source\FirstPersonHorror</Filter>
     </ClCompile>
     <ClInclude Include="..\..\Source\FirstPersonHorror\FirstPersonHorrorGameModeBase.h">
+      <Filter>Source\FirstPersonHorror</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Source\FirstPersonHorror\MyGameModeBase.cpp">
+      <Filter>Source\FirstPersonHorror</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\FirstPersonHorror\MyGameModeBase.h">
+      <Filter>Source\FirstPersonHorror</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Source\FirstPersonHorror\MyHUD.cpp">
+      <Filter>Source\FirstPersonHorror</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\FirstPersonHorror\MyHUD.h">
       <Filter>Source\FirstPersonHorror</Filter>
     </ClInclude>
   </ItemGroup>

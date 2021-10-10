@@ -13,5 +13,8 @@ UCLASS()
 class FIRSTPERSONHORROR_API AFirstPersonHorrorGameModeBase : public AGameModeBase
 {
 	GENERATED_BODY()
-	
+	virtual void StartPlay() override;
+
+public:
+	AFirstPersonHorrorGameModeBase();
 };

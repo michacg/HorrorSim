@@ -24,7 +24,6 @@ ACharacterController::ACharacterController()
 void ACharacterController::BeginPlay()
 {
 	Super::BeginPlay();
-	
 }
 
 // Called every frame

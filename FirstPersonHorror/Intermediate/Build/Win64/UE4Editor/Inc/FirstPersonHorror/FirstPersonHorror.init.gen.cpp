@@ -21,8 +21,8 @@ void EmptyLinkFunctionForGeneratedCodeFirstPersonHorror_init() {}
 				nullptr,
 				0,
 				PKG_CompiledIn | 0x00000000,
-				0x43121F61,
-				0xC017B8DA,
+				0xC69FFE96,
+				0xEE18568D,
 				METADATA_PARAMS(nullptr, 0)
 			};
 			UE4CodeGen_Private::ConstructUPackage(ReturnPackage, PackageParams);

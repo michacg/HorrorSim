@@ -36,7 +36,7 @@ public: \
 
 #define FirstPersonHorror_Source_FirstPersonHorror_FirstPersonHorrorGameModeBase_h_15_STANDARD_CONSTRUCTORS \
 	/** Standard constructor, called after all reflected properties have been initialized */ \
-	NO_API AFirstPersonHorrorGameModeBase(const FObjectInitializer& ObjectInitializer = FObjectInitializer::Get()); \
+	NO_API AFirstPersonHorrorGameModeBase(const FObjectInitializer& ObjectInitializer); \
 	DEFINE_DEFAULT_OBJECT_INITIALIZER_CONSTRUCTOR_CALL(AFirstPersonHorrorGameModeBase) \
 	DECLARE_VTABLE_PTR_HELPER_CTOR(NO_API, AFirstPersonHorrorGameModeBase); \
 	DEFINE_VTABLE_PTR_HELPER_CTOR_CALLER(AFirstPersonHorrorGameModeBase); \
@@ -48,8 +48,6 @@ public:
 
 
 #define FirstPersonHorror_Source_FirstPersonHorror_FirstPersonHorrorGameModeBase_h_15_ENHANCED_CONSTRUCTORS \
-	/** Standard constructor, called after all reflected properties have been initialized */ \
-	NO_API AFirstPersonHorrorGameModeBase(const FObjectInitializer& ObjectInitializer = FObjectInitializer::Get()) : Super(ObjectInitializer) { }; \
 private: \
 	/** Private move- and copy-constructors, should never be used */ \
 	NO_API AFirstPersonHorrorGameModeBase(AFirstPersonHorrorGameModeBase&&); \
@@ -57,7 +55,7 @@ private: \
 public: \
 	DECLARE_VTABLE_PTR_HELPER_CTOR(NO_API, AFirstPersonHorrorGameModeBase); \
 	DEFINE_VTABLE_PTR_HELPER_CTOR_CALLER(AFirstPersonHorrorGameModeBase); \
-	DEFINE_DEFAULT_OBJECT_INITIALIZER_CONSTRUCTOR_CALL(AFirstPersonHorrorGameModeBase)
+	DEFINE_DEFAULT_CONSTRUCTOR_CALL(AFirstPersonHorrorGameModeBase)
 
 
 #define FirstPersonHorror_Source_FirstPersonHorror_FirstPersonHorrorGameModeBase_h_15_PRIVATE_PROPERTY_OFFSET
