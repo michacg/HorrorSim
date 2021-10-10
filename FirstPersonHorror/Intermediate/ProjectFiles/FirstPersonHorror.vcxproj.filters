@@ -1,0 +1,54 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="16.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <None Include="..\..\FirstPersonHorror.uproject" />
+    <Filter Include="Source">
+      <UniqueIdentifier>{646C1276-CB0B-445E-8AAE-819B9EF737FF}</UniqueIdentifier>
+    </Filter>
+    <None Include="..\..\Source\FirstPersonHorror.Target.cs">
+      <Filter>Source</Filter>
+    </None>
+    <None Include="..\..\Source\FirstPersonHorrorEditor.Target.cs">
+      <Filter>Source</Filter>
+    </None>
+    <Filter Include="Config">
+      <UniqueIdentifier>{A189FF00-9534-4B20-87ED-56721DD033F9}</UniqueIdentifier>
+    </Filter>
+    <None Include="..\..\Config\DefaultEditor.ini">
+      <Filter>Config</Filter>
+    </None>
+    <None Include="..\..\Config\DefaultEngine.ini">
+      <Filter>Config</Filter>
+    </None>
+    <None Include="..\..\Config\DefaultGame.ini">
+      <Filter>Config</Filter>
+    </None>
+    <None Include="..\..\Config\DefaultInput.ini">
+      <Filter>Config</Filter>
+    </None>
+    <Filter Include="Source\FirstPersonHorror">
+      <UniqueIdentifier>{6158CD84-3D57-4946-9EAE-B6C11B1D1EFB}</UniqueIdentifier>
+    </Filter>
+    <ClCompile Include="..\..\Source\FirstPersonHorror\CharacterController.cpp">
+      <Filter>Source\FirstPersonHorror</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\FirstPersonHorror\CharacterController.h">
+      <Filter>Source\FirstPersonHorror</Filter>
+    </ClInclude>
+    <None Include="..\..\Source\FirstPersonHorror\FirstPersonHorror.Build.cs">
+      <Filter>Source\FirstPersonHorror</Filter>
+    </None>
+    <ClCompile Include="..\..\Source\FirstPersonHorror\FirstPersonHorror.cpp">
+      <Filter>Source\FirstPersonHorror</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\FirstPersonHorror\FirstPersonHorror.h">
+      <Filter>Source\FirstPersonHorror</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Source\FirstPersonHorror\FirstPersonHorrorGameModeBase.cpp">
+      <Filter>Source\FirstPersonHorror</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\FirstPersonHorror\FirstPersonHorrorGameModeBase.h">
+      <Filter>Source\FirstPersonHorror</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>

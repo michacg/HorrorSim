@@ -1,0 +1,14 @@
+{
+	"Targets": [
+		{
+			"Name": "FirstPersonHorror",
+			"Path": "C:\\Users\\micha\\Desktop\\MyProjects\\HorrorSim\\FirstPersonHorror\\Source\\FirstPersonHorror.Target.cs",
+			"Type": "Game"
+		},
+		{
+			"Name": "FirstPersonHorrorEditor",
+			"Path": "C:\\Users\\micha\\Desktop\\MyProjects\\HorrorSim\\FirstPersonHorror\\Source\\FirstPersonHorrorEditor.Target.cs",
+			"Type": "Editor"
+		}
+	]
+}
